@@ -18,3 +18,5 @@ This project follows a guide on https://towardsdatascience.com/building-a-conver
 Since the guide is OUTDATED, its better to follow the guide just for reference.
 
 If you install Anaconda, it will make it easier to run & deploy this bot.
+
+NOTE: TO DEPLOY INSTALL NGROK OR SOME OTHER RESOURCE
