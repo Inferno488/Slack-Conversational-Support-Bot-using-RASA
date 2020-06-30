@@ -1,0 +1,96 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_happy
+- utter_ELIGIBILITY
+- utter_CERTIFICATE
+- utter_ROUNDS
+- utter_GENHELP
+- utter_goodbye
+- utter_didnotwork
+- utter_unclear
+- utter_ask_picture
+- __main__.ApiAction
+config:
+  store_entities_as_slots: true
+entities:
+- group
+forms: []
+intents:
+- greet:
+    use_entities: true
+- help:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- mood_affirm:
+    use_entities: true
+- mood_deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- q_ELIGIBILITY:
+    use_entities: true
+- q_CERTIFICATE:
+    use_entities: true
+- q_ROUNDS:
+    use_entities: true
+- q_GENHELP:
+    use_entities: true
+slots:
+  group:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_CERTIFICATE:
+  - text: We have designed this challenge so that you get multiple tangible outcomes
+      for completing each phase/round. By default, you get the prizes of the phases
+      you qualify. For example - If you qualify for phase 3, you will get the prizes
+      offered to winners of phase 1 and phase 2 by default. More details on this in
+      the individual phase section on the website
+  utter_ELIGIBILITY:
+  - text: The Registeration & Eligibility details are present on the website. The
+      deadlines to register are <INSERT DATE>. The Event Timelines are from <INSERT
+      DATE> to <INSERT DATE>. For any further questions or clarifications contact
+      support at <INSERT SUPPORT EMAIL>.
+  utter_GENHELP:
+  - text: If you have any queries or issues please feel free to ask me. I can currently
+      answer you queries on Registeration, Eligiblity, Prize Information & Round Details.
+      You may contact <SUPPORT EMAIL> for further clarifications.
+  utter_ROUNDS:
+  - text: The timeline of the challenge is mentioned on the website. The deadlines
+      for individual rounds is <INSERT DETAIL>. You can find more information on the
+      website.
+  utter_ask_picture:
+  - text: I feel that you're sad, cheer up!
+  utter_did_that_help:
+  - text: Is that right?
+  - text: Did I guess that correct?
+  - text: Hopefully I got that right?
+  - text: Is that helpful?
+  - text: Hopefully that sorts you out?
+  - text: All sorted?
+  utter_didnotwork:
+  - text: Oh sorry, My bad
+  - text: Try rephrasing maybe, im sorry
+  - text: Maybe I'll get it right the next time!
+  - text: Maybe ask differently?
+  - text: Oh i'm sorry
+  - text: Is that so, my bad
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! I'm botty. Please feel free to ask me any questions.
+  - text: Hey, I'm botty. Feel free to ask me for help.
+  - text: Hey, botty here, your very own support bot. Ask me for help anytime.
+  - text: Hello! I'm botty, I'll try to be of assistance, please ask me anything.
+  utter_happy:
+  - text: Great carry on!
+  - text: Happy to help.
+  - text: Wonderful.
+  - text: Awesome!
+  utter_unclear:
+  - text: I am not sure what you are aiming for.

@@ -1,0 +1,1209 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "thanks"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "thanks alot"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "appreciate it"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "y"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "never"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "nah"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "n"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "na"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no way"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not really"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i take part in the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i take part in the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i take part in the hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i take part in the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is eligibility"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the eligibility criteria"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the criteria"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the eligibility criteria for the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the eligibility criteria for the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the eligibility criteria for the hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the eligibility criteria for the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the registeration criteria"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the registeration criteria for the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the registeration criteria for the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the registeration criteria for the hackaathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is the registeration criteria for the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "eligibility criteria"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "eligibility criteria for the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "eligibility criteria for the hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "eligibility criteria for the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "eligibility criteria for the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "who can enter the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "who can enter the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "who can enter the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "who can enter the hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i enter"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i enter the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i enter the hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i enter the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i enter the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i take part"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i join"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i join the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i join the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i join the hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how do i join the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "tell me criteria"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "tell me joining criteria"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "tell me eligibility criteria"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "tell me how can i join"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how can i register in the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how can i register in the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how can i register in the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "how can i register in the hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "do i qualify"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "do i qualify for competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "do i qualify for the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "do i qualify for the challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "do i qualify for the hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "register info"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "register information"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "register how"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "register criteria"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "register hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "register event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "register challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "registeration info"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "registeration information"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "registeration query"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "eligibility info"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what eligibility"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what is eligibility"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "eligibility information"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "deadline to register"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "deadline to participate"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "deadline to enter"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "deadline to take part"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "last date to register"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "last date to participate"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "last date to enter"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "last date to take part"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "timeline to register in competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "timeline to register in event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "timeline to register in challenge"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "timeline to register in hackathon"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "what are the registeration dates"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "till when can i register"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "till when can i take part"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "till when is the registeration"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "till when can i join the competition"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "till when can i join the event"
+      },
+      {
+        "intent": "q_ELIGIBILITY",
+        "text": "till when can i join the hackathon"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "dates of rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "dates of round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "dates of submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "date of submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "date to submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "dates to submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "date of round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "date of rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "what is the deadline for the rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "what is the date for the rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "what is the deadline for the round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "what is the date for the round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "what is the last date to register for the round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "register for the round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "till when can i submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "till when can i do the submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "till when can i do the round submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "round 1"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "round 2"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "round 3"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "what is the final date to submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "what is the final date for submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "what are the final dates for the rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "any specific dates?"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "any specific deadlines?"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "any specific date?"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "any dates?"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "round details"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "round dates"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "round deadlines"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit dates"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit ideas"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit idea"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit product"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit presentation"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit ppt"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit document"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit draft"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submission dates"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit date"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submission date"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit deadline"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submission deadline"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submit deadlines"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "submission deadlines"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "deadlines for rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "deadline for round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "deadline for submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "deadline for submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "last date for rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "last date for round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "last date to submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "last date for submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "final date for rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "final date for round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "final date to submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "final date for submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "final deadline for rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "final deadline for round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "final deadline for submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "final deadline to submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "timeline for rounds"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "timeline for round"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "timeline for submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "timeline for submission"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "timeline to submit"
+      },
+      {
+        "intent": "q_ROUNDS",
+        "text": "timeline for submission"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i need help"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i need support"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i require help"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i require support"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i have a problem"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i have a query"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i have a issue"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i have an issue"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i got a problem"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i got a query"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i got a issue"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i got an issue"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "can you help me"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "can you help me out"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "what can you help me with"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "can you assist me"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "solve problem"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "solve issue"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "solve query"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i have trouble"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "i got trouble"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "support"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "contact support"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "contact information"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "contact info"
+      },
+      {
+        "intent": "q_GENHELP",
+        "text": "contact details"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any prize"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any prizes for the event"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any prizes for the challenge"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any prizes for the competition"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any prizes for the hackathon"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any prizes for the rounds"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any prizes for the phase"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any certificate"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any certificate for the event"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any certificate for the challenge"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any certificate for the competition"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any certificate for the hackathon"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any certificate for the rounds"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get any certificate for the phase"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate or prizes"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate or prizes for the event"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate or prizes for the challenge"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate or prizes for the competition"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate or prizes for the hackathon"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate or prizes for the rounds"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate or prizes for the phase"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awards"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awards for the event"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awards for the challenge"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awards for the competition"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awards for the hackathon"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awards for the rounds"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awards for the phase"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "prize info"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "prize information"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate info"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate information"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "award info"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "award information"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certificate"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "certi"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "cert"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "get certi"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do i get certi"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "do we get certi"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "will we get certi"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "winners will get"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "winners"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "prize winners"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what do the winners get"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what do i get if i win"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "won"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "won a prize"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "prize won"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "prize win"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "gift win"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what if i win"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what if i won"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what to win"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what i won"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what if i win"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "winners will get"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "winners will receive"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what will i receive"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "receive"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "what to receive"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awarded"
+      },
+      {
+        "intent": "q_CERTIFICATE",
+        "text": "awarding"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "my day was horrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I don't feel very well"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am disappointed"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "super sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I'm so sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not so good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremly sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so saad"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

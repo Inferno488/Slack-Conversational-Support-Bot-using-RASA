@@ -1,0 +1,323 @@
+
+## intent:greet
+- hey
+- hello there
+- hi
+- hello there
+- good morning
+- good evening
+- moin
+- hey there
+- let's go
+- hey dude
+- goodmorning
+- goodevening
+- good afternoon
+
+## intent:goodbye
+- cu
+- good by
+- cee you later
+- good night
+- good afternoon
+- bye
+- goodbye
+- have a nice day
+- see you around
+- bye bye
+- see you later
+
+## intent:mood_affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- thanks
+- thanks alot
+- appreciate it
+- y
+- yeah
+- yup
+- perfect
+
+## intent:mood_deny
+- no
+- never
+- nah
+- n
+- na
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:q_ELIGIBILITY
+- how do i take part in the competition
+- how do i take part in the challenge
+- how do i take part in the hackathon
+- how do i take part in the event
+- what is eligibility
+- what is the eligibility criteria
+- what is the criteria
+- what is the eligibility criteria for the competition
+- what is the eligibility criteria for the challenge
+- what is the eligibility criteria for the hackathon
+- what is the eligibility criteria for the event
+- what is the registeration criteria
+- what is the registeration criteria for the competition
+- what is the registeration criteria for the challenge
+- what is the registeration criteria for the hackaathon
+- what is the registeration criteria for the event
+- eligibility criteria
+- eligibility criteria for the event
+- eligibility criteria for the hackathon
+- eligibility criteria for the competition
+- eligibility criteria for the challenge
+- who can enter the competition
+- who can enter the challenge
+- who can enter the event
+- who can enter the hackathon
+- how do i enter
+- how do i enter the event
+- how do i enter the hackathon
+- how do i enter the competition
+- how do i enter the challenge
+- how do i take part
+- how do i join
+- how do i join the challenge
+- how do i join the event
+- how do i join the hackathon
+- how do i join the competition
+- tell me criteria
+- tell me joining criteria
+- tell me eligibility criteria
+- tell me how can i join
+- how can i register in the competition
+- how can i register in the event
+- how can i register in the challenge
+- how can i register in the hackathon
+- do i qualify
+- do i qualify for competition
+- do i qualify for the event
+- do i qualify for the challenge
+- do i qualify for the hackathon
+- register info
+- register information
+- register how
+- register criteria
+- register hackathon
+- register event
+- register challenge
+- registeration info
+- registeration information
+- registeration query
+- eligibility info
+- what eligibility
+- what is eligibility
+- eligibility information
+- deadline to register
+- deadline to participate
+- deadline to enter
+- deadline to take part
+- last date to register
+- last date to participate
+- last date to enter
+- last date to take part
+- timeline to register in competition
+- timeline to register in event
+- timeline to register in challenge
+- timeline to register in hackathon
+- what are the registeration dates
+- till when can i register
+- till when can i take part
+- till when is the registeration
+- till when can i join the competition
+- till when can i join the event
+- till when can i join the hackathon
+
+
+## intent: q_ROUNDS
+- dates of rounds
+- dates of round
+- dates of submission
+- date of submission
+- date to submit
+- dates to submit
+- date of round
+- date of rounds
+- what is the deadline for the rounds
+- what is the date for the rounds
+- what is the deadline for the round
+- what is the date for the round
+- what is the last date to register for the round
+- register for the round
+- till when can i submit
+- till when can i do the submission
+- till when can i do the round submission
+- round 1
+- round 2
+- round 3
+- what is the final date to submit
+- what is the final date for submission
+- what are the final dates for the rounds
+- any specific dates?
+- any specific deadlines?
+- any specific date?
+- any dates?
+- round details
+- round dates
+- round deadlines
+- submit dates
+- submit ideas
+- submit idea
+- submit product
+- submit presentation
+- submit ppt
+- submit document
+- submit draft
+- submission dates
+- submit date
+- submission date
+- submit deadline
+- submission deadline
+- submit deadlines
+- submission deadlines
+- deadlines for rounds
+- deadline for round
+- deadline for submit
+- deadline for submission
+- last date for rounds
+- last date for round
+- last date to submit
+- last date for submission
+- final date for rounds
+- final date for round
+- final date to submit
+- final date for submission
+- final deadline for rounds
+- final deadline for round
+- final deadline for submission
+- final deadline to submit
+- timeline for rounds
+- timeline for round
+- timeline for submit
+- timeline for submission
+- timeline to submit
+- timeline for submission
+
+## intent: q_GENHELP
+- i need help
+- i need support
+- i require help
+- i require support
+- i have a problem
+- i have a query
+- i have a issue
+- i have an issue
+- i got a problem
+- i got a query
+- i got a issue
+- i got an issue
+- can you help me
+- can you help me out
+- what can you help me with
+- can you assist me
+- solve problem
+- solve issue
+- solve query
+- i have trouble
+- i got trouble
+- support
+- contact support
+- contact information
+- contact info
+- contact details
+
+
+## intent:q_CERTIFICATE
+- do i get any prize
+- do i get any prizes for the event
+- do i get any prizes for the challenge
+- do i get any prizes for the competition
+- do i get any prizes for the hackathon
+- do i get any prizes for the rounds
+- do i get any prizes for the phase
+- do i get any certificate
+- do i get any certificate for the event
+- do i get any certificate for the challenge
+- do i get any certificate for the competition
+- do i get any certificate for the hackathon
+- do i get any certificate for the rounds
+- do i get any certificate for the phase
+- certificate or prizes
+- certificate or prizes for the event
+- certificate or prizes for the challenge
+- certificate or prizes for the competition
+- certificate or prizes for the hackathon
+- certificate or prizes for the rounds
+- certificate or prizes for the phase
+- awards
+- awards for the event
+- awards for the challenge
+- awards for the competition
+- awards for the hackathon
+- awards for the rounds
+- awards for the phase
+- prize info
+- prize information
+- certificate info
+- certificate information
+- award info
+- award information
+- certificate
+- certi
+- cert
+- get certi
+- do i get certi
+- do we get certi
+- will we get certi
+- winners will get
+- winners
+- prize winners
+- what do the winners get
+- what do i get if i win
+- won
+- won a prize
+- prize won
+- prize win
+- gift win
+- what if i win
+- what if i won
+- what to win
+- what i won
+- what if i win
+- winners will get
+- winners will receive
+- what will i receive
+- receive 
+- what to receive
+- awarded
+- awarding
+
+
+
+## intent:mood_unhappy
+- my day was horrible
+- I am sad
+- I don't feel very well
+- I am disappointed
+- super sad
+- I'm so sad
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not so good
+- not very good
+- extremly sad
+- so saad
+
